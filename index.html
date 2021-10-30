@@ -7,45 +7,49 @@
  </head>    
 <body>
     <h1 id="title">Tic Tac Toe</h1>
+    <p id="buttons">
+        <button id="reset-btn">Reset Board</button>
+    </p>
+    <p id="winner"></p>
     <table id="board">
         <tr>
             <td>
-                <button data-row="0" data-col="0"></button>
+                <button class="square" data-row="0" data-col="0"></button>
             </td>
             <td>
-                <button data-row="0" data-col="1"></button>
+                <button class="square" data-row="0" data-col="1"></button>
             </td>
             <td>
-                <button data-row="0" data-col="2"></button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button data-row="1" data-col="0"></button>
-            </td>
-            <td>
-                <button data-row="1" data-col="1">X</button>
-            </td>
-            <td>
-                <button data-row="1" data-col="2"></button>
+                <button class="square" data-row="0" data-col="2"></button>
             </td>
         </tr>
         <tr>
             <td>
-                <button data-row="2" data-col="0"></button>
+                <button class="square" data-row="1" data-col="0"></button>
             </td>
             <td>
-                <button data-row="2" data-col="1"></button>
+                <button class="square" data-row="1" data-col="1"></button>
             </td>
             <td>
-                <button data-row="2" data-col="2"></button>
+                <button class="square" data-row="1" data-col="2"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="square" data-row="2" data-col="0"></button>
+            </td>
+            <td>
+                <button class="square" data-row="2" data-col="1"></button>
+            </td>
+            <td>
+                <button class="square" data-row="2" data-col="2"></button>
             </td>
         </tr>
 
-       
+
     </table>
     <script src="js/jquery.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" type="module"></script>
 </body>
 
  </html>
