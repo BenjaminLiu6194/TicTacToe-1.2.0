@@ -31,7 +31,16 @@ td {
 }
 
 #buttons{
+    border: none;
+    color: black;
     text-align: center;
     margin-top: 30px;
+}
+
+
+#winner {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
 }
 
